@@ -23,6 +23,13 @@ dist-ssr
 *.sw?
 
 #My adds
-/my-description.txt
-/temp
 *.zip
+/build
+/gulp
+/temp
+/src
+/my-description.txt
+/gulpfile.js
+/package-lock.json
+/package.json
+/webpack.config.js
