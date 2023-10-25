@@ -1,2 +1,13 @@
-import mobileNav from './modules/mobile-nav.js';
-mobileNav();
+// import mobileNav from './modules/mobile-nav.js';
+import { autoCompleteFunc } from "./modules/autoComplete";
+import { datePicker } from "./modules/datePicker";
+
+const init = () => {
+  // mobileNav();
+
+  autoCompleteFunc();
+  datePicker();
+
+}
+
+init();
