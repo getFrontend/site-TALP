@@ -24,12 +24,6 @@ dist-ssr
 
 #My adds
 *.zip
-/build
-/gulp
-/temp
-/src
+build
+temp
 /my-description.txt
-/gulpfile.js
-/package-lock.json
-/package.json
-/webpack.config.js

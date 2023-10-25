@@ -1,0 +1,28 @@
+.discover {
+  padding: 60px 0;
+
+  &__grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  &__desc {}
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+  }
+
+  &__form {}
+
+  &__picture {}
+
+  &__picture-img {}
+}
+
+.container {}
