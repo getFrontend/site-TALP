@@ -1,14 +1,36 @@
 .footer {
-	background-color: #181818;
-	padding: 50px 0;
-	font-size: 32px;
-    color: #fff;
+	padding-block: 80px;
+	background: #181818;
+	color: var(--text-white);
 
-	h1 {
-		font-size: 32px;
+	a {
+		color: var(--text-white);
 	}
 
-	@media (max-width: 1200px) {
-		font-size: 26px;
+	&__row {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: start;
+		gap: 128px;
+	}
+
+	&__copyright {
+		display: grid;
+		gap: 24px;
+	}
+
+	&__copyright-text {
+		max-width: 300px;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 450;
+		line-height: 150%;
+	}
+
+	&__nav {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: start;
+		gap: 40px;
 	}
 }
