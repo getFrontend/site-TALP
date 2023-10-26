@@ -40,7 +40,7 @@ export const sliderTestimonials = () => {
     grabCursor: true,
     a11y: false,
     freeMode: true,
-    speed: 5300,
+    speed: 5800,
     loop: true,
     autoplay: {
       delay: 0.0,
