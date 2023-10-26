@@ -1,23 +1,24 @@
 .scroll-down {
     position: relative;
     display: inline-block;
-}
-.scroll-down__text {
-    animation: rotation 10s linear 0s infinite running normal;
-}
 
-.scroll-down__icon {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-@keyframes rotation {
-    0% {
-        transform: rotate(0deg);
+    &__text {
+        animation: rotation 10s linear 0s infinite running normal;
     }
-    100% {
-        transform: rotate(360deg);
+
+    &__link {
+        display: block;
+        transition: opacity 0.2s ease-in;
+        
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 }
