@@ -5,8 +5,8 @@
 	--width: 40px;
 	--height: 30px;
 
-	--line-height: 4px;
-	--spacing: 6px;
+	--line-height: 2px;
+	--spacing: 8px;
 
 	--color: #000;
 	--radius: 4px;
@@ -59,28 +59,29 @@
 	top: calc(var(--line-height) + var(--spacing));
 }
 
-.nav-icon.nav-icon--active {
+.nav-icon.nav-icon_active {
 	background-color: transparent;
 }
 
-.nav-icon.nav-icon--active::before,
-.nav-icon.nav-icon--active::after {
+.nav-icon.nav-icon_active::before,
+.nav-icon.nav-icon_active::after {
 	top: 0;
 	transition: top var(--time) linear,
 		transform var(--time) ease-in var(--time);
 }
 
-.nav-icon.nav-icon--active::before {
+.nav-icon.nav-icon_active::before {
 	transform: rotate(45deg);
 }
 
-.nav-icon.nav-icon--active::after {
+.nav-icon.nav-icon_active::after {
 	transform: rotate(-45deg);
 }
 
 /* Layout */
 
 .mobile-nav-btn {
+	position: relative;
 	z-index: 999;
 	// display: none;
 }
