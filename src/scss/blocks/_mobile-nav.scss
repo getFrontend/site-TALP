@@ -23,6 +23,10 @@
 
 .mobile-nav a {
 	color: #fff;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .mobile-nav__list {
@@ -34,5 +38,9 @@
 
 	& .active {
 		opacity: 0.5;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 }
