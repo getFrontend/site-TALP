@@ -3,8 +3,8 @@
         <div class="card-review__rating">
             @@for (let i=0; i < context.stars; i++) { <img src="./img/icons/star.svg" alt="Star">
                 }
-                @@if (context.stars < 5) { @@for (let i=0; i < 5 - context.stars; i++) { <img
-                    src="./img/icons/star-off.svg" alt="Star">
+                @@if (context.stars < 5) { @@for (let i=0; i < 5 - context.stars; i++) { 
+                    <img src="./img/icons/star-off.svg" alt="Star">
                     }
                     }
         </div>
