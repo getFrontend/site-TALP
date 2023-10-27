@@ -93,11 +93,11 @@ gulp.task('sass:docs', function () {
   return gulp
     .src('./src/scss/*.scss')
     .pipe(changed('./docs/css/'))
-    .pipe(plumber(plumberNotify('SCSS')))
+    // .pipe(plumber(plumberNotify('SCSS')))
     .pipe(sassGlob())
     .pipe(sass())
-    .pipe(groupMedia())
-    .pipe(webpCss())
+    // .pipe(groupMedia())
+    // .pipe(webpCss())
     .pipe(autoprefixer())
     .pipe(csso())
     .pipe(gulp.dest('./docs/css/'));
