@@ -30,6 +30,7 @@ export const sliderTestimonials = () => {
     autoplay: {
       delay: 0.0,
       disableOnInteraction: false,
+      reverseDirection: true,
     },
   });
 
