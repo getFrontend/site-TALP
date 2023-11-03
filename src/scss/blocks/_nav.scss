@@ -8,20 +8,13 @@
         flex-shrink: 0;
     }
 
-    &__btns {
-        display: flex;
-        gap: 12px;
+    &__btn {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 12px;
 
-        @media (max-width: 780px) {
+        @media (max-width: 796px) {
             display: none;
-        }
-    }
-
-    &__icon {
-        display: none;
-
-        @media (max-width: 780px) {
-            display: block;
         }
     }
 
@@ -44,6 +37,7 @@
             color: #35AFF4;
         }
     }
+
 }
 
 // .logo {
