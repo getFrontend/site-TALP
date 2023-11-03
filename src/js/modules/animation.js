@@ -8,7 +8,7 @@ export const animation = () => {
     // reset: true,
   });
 
-  ScrollReveal().reveal(`.header, .popular__title`, {
+  ScrollReveal().reveal(`.nav__logo, .nav__list, .popular__title`, {
     origin: 'top',
   });
 
